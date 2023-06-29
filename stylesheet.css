@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body  {
+background-color:#e4d4bc;
+font-family: "Avenir Next"
+
+}
+
+.img{
+  width:"5px";
+  height:"5px";
+}
+
+h1 {
+  font-weight:nomal;
+  padding-bottom:10px;
+  text-align:center;
+  position:relative;
+  margin: 0 0 10px 0;
+  letter-spacing: 15px;
+}
+
+.field{
+  display: flex;
+  justify-content: space-around;
+}
+
+.balloon1-left{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 175px;
+  max-width: 200px;
+  color:#555;
+  font-size: 25px;
+  background:#ecffe0;
+}
+
+.balloon2{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 175px;
+  max-width: 200px;
+  color:#555;
+  font-size: 25px;
+  background:#ecffe0;
+}
+
+.balloon3-left{
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 175px;
+  max-width: 200px;
+  color:#555;
+  font-size: 25px;
+  background:#ecffe0;
+}
+
+
+.header {
+  background-color: #f7d2b4;
+  height: 50px;
+}
