@@ -1,22 +1,29 @@
 @charset "UTF-8";
 body  {
-background-color:#e4d4bc;
-font-family: "Avenir Next"
-
+  background-color:#e4d4bc;
+  font-family: "Avenir Next";
+  text-align:center;
 }
 
-.img{
-  width:"5px";
-  height:"5px";
-}
-
-h1 {
-  font-weight:nomal;
-  padding-bottom:10px;
+header h1{
+  font-weight:bolder;
   text-align:center;
   position:relative;
   margin: 0 0 10px 0;
   letter-spacing: 15px;
+}
+
+header img{
+  padding:10px 0;
+}
+
+
+section {
+  border-width: 5px;
+  border-color: rgb(102, 102, 102);
+  border-style: solid;
+  border-radius: 5px;
+  padding: 50px;
 }
 
 .field{
