@@ -1,74 +1,41 @@
 @charset "UTF-8";
-body  {
-  background-color:#e4d4bc;
-  font-family: "Avenir Next";
-  text-align:center;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #eee;
 }
 
-header h1{
-  font-weight:bolder;
-  text-align:center;
-  position:relative;
-  margin: 0 0 10px 0;
-  letter-spacing: 15px;
+header{
+  height: 60px;
+  background:#ccc;
 }
 
-header img{
-  padding:10px 0;
+.flex {
+  display: flex;
+}
+
+.flex .image{
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.flex .text{
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.flex a{
+  margin: 15px 30px;
 }
 
 
 section {
-  border-width: 5px;
-  border-color: rgb(102, 102, 102);
-  border-style: solid;
   border-radius: 5px;
   padding: 50px;
-}
-
-.field{
-  display: flex;
-  justify-content: space-around;
-}
-
-.balloon1-left{
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0 1.5em 15px;
-  padding: 7px 10px;
-  min-width: 175px;
-  max-width: 200px;
-  color:#555;
-  font-size: 25px;
-  background:#ecffe0;
-}
-
-.balloon2{
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0 1.5em 15px;
-  padding: 7px 10px;
-  min-width: 175px;
-  max-width: 200px;
-  color:#555;
-  font-size: 25px;
-  background:#ecffe0;
-}
-
-.balloon3-left{
-  position: relative;
-  display: inline-block;
-  margin: 1.5em 0 1.5em 15px;
-  padding: 7px 10px;
-  min-width: 175px;
-  max-width: 200px;
-  color:#555;
-  font-size: 25px;
-  background:#ecffe0;
-}
-
-
-.header {
-  background-color: #f7d2b4;
-  height: 50px;
+  text-align: center;
 }

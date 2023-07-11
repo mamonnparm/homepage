@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.header {
+  background-color: #bbb;
+  height: 30px;
+  text-align: center;
+}
+
+
+.header form {
+  padding-top: 10px;
+}
+
+
+.header button{
+  background:#fff;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.header button:hover{
+  opacity:.7;
+}

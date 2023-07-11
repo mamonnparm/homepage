@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
+
 <head>
   <meta charset="UTF-8">
   <title>○○探偵事務所 問い合わせ</title>
   <link rel="stylesheet" href="stylesheet.css">
-  <style>
-  section {
-      border-width: 10px;
-      border-color: rgb(102, 102, 102);
-      border-style: solid;
-      border-radius: 5px;
-      padding: 50px;
-        }
-  body {
-    text-align:center;
+  <link rel="stylesheet" href="contact.css">
+</head>
 
-  }
-  </style>
-  </head>
-  <body>
-    <div class ="header">
-      <h1>問い合わせ</h1>
-    
+<body>
+  <header>
+    <div class="flex">
+      <figure class="image"><img src="154405.png" alt="探偵アイコン" width="48" height="48">
+      </figure>
+      <h1 class="text">○○探偵事務所</h1>
+      <a href="index.html">ホーム</a>
+      <a href="about.html">事業内容</a>
+      <a href="contact.html">問い合わせ</a>
+    </div>
+  </header>
+  <div class="header">
+    <h2>問い合わせ</h2>
+
     <form>
       <div>
-        <label >
+        <label>
           お名前
-          <input type="text" placeholder="例：田中太郎" >
+          <input type="text" placeholder="例：田中太郎">
         </label>
       </div>
       <div>
-        
+
       </div>
       <div>
         <label for="address">メールアドレス</label>
         <input type="text" id="address" placeholder="you@example.com">
       </div>
       <div>
-          <fieldset>
-            <legend>問い合わせ内容</legend>
-            <label><input type="radio" name="inquiry">依頼について</label>
-            <label><input type="radio" name="inquiry">採用について</label>
-            <label><input type="radio" name="inquiry">その他</label>
-          </fieldset>
+        <fieldset>
+          <legend>問い合わせ内容</legend>
+          <label><input type="radio" name="inquiry">依頼について</label>
+          <label><input type="radio" name="inquiry">採用について</label>
+          <label><input type="radio" name="inquiry">その他</label>
+        </fieldset>
       </div>
       <div>
         <label for="content">問い合わせ内容</label>
@@ -50,8 +50,9 @@
       </div>
     </form>
     <footer>
-      <a href="index.html">ホームに戻る</a>
+      <button>送 信</button>
     </footer>
-   </div>
-  </body>
-  </html>
+  </div>
+</body>
+
+</html>
