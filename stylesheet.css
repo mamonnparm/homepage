@@ -39,7 +39,7 @@ header input{
 
 header label{
   display: inline-block;
-  margin-left: 56%;
+  margin-left: auto;
   width:25px;
   height: 22px;
   cursor: pointer;
