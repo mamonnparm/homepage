@@ -91,7 +91,18 @@ ul{
 }
 
 section {
-  border-radius: 5px;
   padding: 50px;
   text-align: center;
+}
+
+.information {
+  background-color: #e5ea507f;
+  padding: 10px;
+  text-align: left;
+}
+
+
+footer {
+  text-align: center;
+  opacity: .5;
 }
